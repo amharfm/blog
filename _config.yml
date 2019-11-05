@@ -1,15 +1,28 @@
+---
+---
+
+---
 title: Ruang Angkasa no.3
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 description: Sofa Kontemplasi
 show_downloads: false
-google_analytics:
+google_analytics: 
 baseurl: "/blog"
 email: amhar.fm@outlook.co.id
-url: "http://amharfm.github.io/blog"
+url: http://amharfm.github.io/blog
 twitter_username: amhar_fm
-github_username:  amharfm
-
-# Build settings
+github_username: amharfm
 markdown: kramdown
 theme: jekyll-theme-cayman
-include: [_config.yml]
-exclude: [sekalian.sh, sekalian++.sh]
+include:
+- _config.yml
+exclude:
+- build.sh
+- preview.sh

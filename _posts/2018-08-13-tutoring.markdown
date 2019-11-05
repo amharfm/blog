@@ -1,9 +1,12 @@
 ---
+title: Tervetuloa Turussa!
+date: 2018-08-13 10:30:15 Z
+categories:
+- jekyll
+- update
 layout: post
-title:  "Tervetuloa Turussa!"
-date:   2018-08-13 13:30:15 +0300
-categories: jekyll update
 ---
+
 Tervetuloa Turunen!
 
 

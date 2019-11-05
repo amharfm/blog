@@ -18,7 +18,7 @@ function load (){
 		// bg.setAttribute("width", 1600);
 		// bg.setAttribute("height", 900);
 		bg.setAttribute("scrolling", "no");
-		bg.setAttribute('src', window.location.origin+"/blog/assets/em/gen_drawing/")
+		bg.setAttribute('src', window.location.origin+"/assets/em/gen_drawing/")
 		// header.removeChild(header.children[0]);
 		// header.removeChild(header.children[0]);
 		header.appendChild(bg);
