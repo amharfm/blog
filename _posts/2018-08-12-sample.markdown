@@ -1,8 +1,10 @@
 ---
+title: Sample
+date: 2018-08-12 10:30:15 Z
+categories:
+- jekyll
+- update
 layout: post
-title:  "Sample"
-date:   2018-08-12 13:30:15 +0300
-categories: jekyll update
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
