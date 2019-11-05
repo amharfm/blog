@@ -26,3 +26,5 @@ include:
 exclude:
 - build.sh
 - preview.sh
+- sekalian.sh
+- sekalian++.sh
