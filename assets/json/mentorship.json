@@ -1,0 +1,127 @@
+{
+	"bahasa" : {
+		 "Indonesia" : 0,
+		 "Sunda" :1,
+		 "Aceh" : 2,
+		 "Padang" :3
+	},
+	"isi" : {
+		"0":{
+			"kop" : "Hai, akang dan tétéh alumni UPI!",
+			"itunya" : "Sudikah kiranya bergabung menjadi mentor bagi mereka di masa transisi: Mahasiswa Baru dan Mahasiswa Tingkat Akhir, agar dapat lebih mudah mempelajari jejak akang-teteh? Barangkali sedang sibuk melanjutkan studi, membangun bisnis baru, mengerjakan program organisasi nirlaba, mengajar di sekolah, meneliti, ataupun menikmati profesinya saat ini, <strong>namun bersedia meluangkan waktu untuk menjawab pertanyaan mereka</strong>, kabari kami di "
+		},
+		"2":{
+			"kop" : "Hai, akang dan tétéh alumni UPI!",
+			"itunya" : "Meye neutem neugabong jeut ke mentor awak nyan bak masa nyoe: Mahasiswa Baro Atawa mahasiswa akhe, supaya jeut leubeh mudah bak taikot cutkak ngon cutbang  geutanyoe. Kadang Teungoh sibok bak talet pelajaran, program organisasi, meneliti, atawa menikmati profesi saat nyoe <strong>man meye sedia neubi wate untuk tajaweub pertanyaan urengnyan</strong>,neubi haba ke kamoe bakkabari "
+		},
+		"1":{
+			"kop" : "Sampurasun, akang dan tétéh alumni UPI!",
+			"itunya" : "Manawi kersa ilubiung janten pangaping/mentor pikeun ngaping dina mangsa transisi: Mahasiswa Anyar sareng Mahasiswa Ahir,  supados langkung gampil mikawanoh tapak léngkah Akang sareng Tétéh? Manawi nuju sibuk ngalajengkeun atikan, ngawangun bisnis, migawé prohram orhanisasi nirlaba,  ngawulang di sakola, nalungtik atanapi nu sanesna. <strong>Nanging kersa ngaluangkeun waktosna kanggé ngawaler patarosan aranjeuna</strong>, tiasa wawartos ka "
+		},
+		"3":{
+			"kop" : "Salam, uda & uni alumni UPI!",
+			"itunya" : "Namuahkah sakironyo bagabuang manjadi mentor untuak urang2 dimaso transisi: Mahasiswa Baru jo Mahasiswa tingkek akhir, supayo dapek labiah mudah  mampalajari jajak uda-uni? Mungkin juo sadang sibuk malanjuikan sakola,  mambangun usaho baru, mangarajoan program organisasi nirlaba,  maaja di sakola,  manaliti,  ataupun basanang2 dengan karajanyo kini, <strong>api namuah maluangkan wakatu untuak manjawek pertanyaan urang-urang tu</strong>, mohon kabari kami di"
+		}
+	},
+	"kontak" : [
+		"http://wa.me/358465666596?text=Halo%2C%20saya%20minat%20gabung%20jadi%20mentor%20%0ANama%20lengkap%3A%0ABidang%20keahlian%2Faktivitas%2Fkarya%2Fpengalaman%3A%0AAngkatan%3A%0AJurusan%3A%0ASosmed%3A"
+	],
+	"mentor" : [
+		{	"nama" : "Lucki Hersya Rachman",
+			"jurusan" : "Pendidikan Ilmu Komputer",
+			"angkatan" : 2010, 
+			"bidang" : "Organisasi Kemahasiswaan, NGO, Magang Kerja Luar Negeri, Digital Marketing Specialist",
+			"media":["https://instagram.com/luckirachman/", "https://facebook.com/luckirachman93/"]
+		},
+		{	"nama" : "Muchamad Rizky Zakaria (Iky)",
+			"jurusan" : "Pendidikan Seni Rupa",
+			"angkatan" : 2009, 
+			"bidang" : "Seni & Desain. Creative worker (character designer, digital sculpting, illustrator). Informal art & design teacher, interested in creative thinking",
+			"media":["https://instagram.com/iky.z/", "https://instagram.com/digisculpt/", "https://instagram.com/so.toy/"]
+		},
+		{	"nama" : "Elgri Yugawati Wisesa",
+			"jurusan" : "Arsitektur",
+			"angkatan" : 2012, 
+			"bidang" : "Arsitektur-lingkungan. Profesi sekarang Arsitek junior. Pengalaman: himpunan, UKM, URM, dan DPM REMA UPI",
+			"media":["https://facebook.com/elgriwisesa"]
+		},
+		{	"nama" : "Adyan Marendra Ramadhani",
+			"jurusan" : "Pendidikan Ilmu Komputer",
+			"angkatan" : 2009, 
+			"bidang" : "Machine Learning (Deep Learning) - Blockchain Technology - MIS",
+			"media":["https://facebook.com/ndra.rendra.ian", "https://linkedin.com/in/adyanmarendra"]
+		},
+		{	"nama" : "Endah Nursalehah",
+			"jurusan" : "Pendidikan Ilmu Komputer",
+			"angkatan" : 2012, 
+			"bidang" : "Mahasiswa  desain, full-time freelancer, UI/UX design, entrepreneurship development",
+			"media":["https://linkedin.com/in/endahnursalehah"]
+		},
+		{	"nama" : "Dudi Septiadi",
+			"jurusan" : "Pendidikan Ekonomi",
+			"angkatan" : 2009, 
+			"bidang" : "Lecturer/Researcher/Trainer",
+			"media":["https://instagram.com/dudiseptiadi", "https://twitter.com/dudi_economic", "https://facebook.com/dudi.septiadi"]
+		},
+		{	"nama" : "Atikah",
+			"jurusan" : "IPSE",
+			"angkatan" : 2010, 
+			"bidang" : "Bidang: Teaching/Early childhood education/Class management. Pengalaman: 3 years teaching early years children",
+			"media":["https://instagram.com/Atikahsnrd", "https://twitter.com/tikaaatikah"]
+		},
+		{	"nama" : "Muhammad Reza Badruzzaman",
+			"jurusan" : "Pendidikan Bahasa Jerman",
+			"angkatan" : 2009, 
+			"bidang" : "Pengalaman: Translator German/English - Indonesian, Translation Project Manager, Consular Services.<br>Bidang: Translation, Localization, Terminology, Project Management, Document Legalisation, Consulship",
+			"media":["https://instagram.com/muhammadreza16"]
+		},
+		{	"nama" : "M. Ginanjar Eka Arli",
+			"jurusan" : "Pendidikan Matematika",
+			"angkatan" : 2011, 
+			"bidang" : "Pegiat literasi. Guru, penulis, editor, ghostwriter, contentwriter, juri lomba kepenulisan, reviewer buku, aktivis komunitas, dll",
+			"media":["https://instagram.com/agi_eka"]
+		},
+		{	"nama" : "Hesty Sunarlindra Kesuma Rahayu",
+			"jurusan" : "Pendidikan Bahasa Jerman",
+			"angkatan" : 2009, 
+			"bidang" : "Kabid Minat & Bakat DSV (Deutschstudenten Verband) periode 2011-2012, Teacher at Tutor Time Early Childhood Education Center Bandung (International Preschool & Kindergarten franchise from the USA)",
+			"media":["https://instagram.com/hestysunarlindra"]
+		},
+		{	"nama" : "Mochamad Wahyu Hidayat",
+			"jurusan" : "Pendidikan Bahasa Jerman",
+			"angkatan" : 2009, 
+			"bidang" : "Linguistik, korpus, leksikografi, bahasa asing, jurnalistik, social network analysis, penulisan dan penyuntingan, penerjemahan, terminologi",
+			"media":["https://twitter.com/casecrit", "https://instagram.com/casecrit"]
+		},
+		{	"nama" : "Ade Rifai",
+			"jurusan" : "Teknologi Pendidikan",
+			"angkatan" : 2010, 
+			"bidang" : "Bidang: Organisasi pembangunan desa, Desa Literasi, Floating Literacy. Pengalaman: Laskar Pengajar Kediri, Relawan Literasi Indonesia, Guru",
+			"media":["https://instagram.com/aderifai"]
+		},
+		{	"nama" : "Faisal Agus Tri Putra",
+			"jurusan" : "Pendidikan Ilmu Komputer",
+			"angkatan" : 2009, 
+			"bidang" : "Learning Analytics & Software Development", 
+			"media":["https://twitter.com/faisalagustp"]
+		},
+		{	"nama" : "Nurul Aisyah",
+			"jurusan" : "IPSE",
+			"angkatan" : 2010, 
+			"bidang" : "Karya Ilmiah, Mengajar, Mental Health First Aid", 
+			"media":["https://instagram.com/nuaisyah", "https://facebook.com/nurulaaisyah"]
+		},
+		{	"nama" : "Chairul Anam", 
+			"jurusan" : "Ilmu Komputer",
+			"angkatan" : 2013, 
+			"bidang" : "Organisasi kemahasiswaan", 
+			"media":["https://instagram.com/anamipit"]
+		},
+		{	"nama" : "Muhammad Fadlian Amhar", 
+			"jurusan" : "Pendidikan Ilmu Komputer",
+			"angkatan" : 2009, 
+			"bidang" : "studi S2 (Learning, Learning Environment & Educational Systems), mengajar ICT di kelas IV-X",
+			"media":["https://facebook.com/eduardoxmenezes", "https://linkedin.com/in/amharfm"]
+		}
+	]
+}

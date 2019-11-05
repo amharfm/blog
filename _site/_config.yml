@@ -1,0 +1,15 @@
+title: Ruang Angkasa no.3
+description: Sofa Kontemplasi
+show_downloads: false
+google_analytics:
+baseurl: "/blog"
+email: amhar.fm@outlook.co.id
+url: "http://amharfm.github.io/blog"
+twitter_username: amhar_fm
+github_username:  amharfm
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-cayman
+include: [_config.yml]
+exclude: [sekalian.sh, sekalian++.sh]
