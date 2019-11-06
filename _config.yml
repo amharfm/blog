@@ -24,7 +24,5 @@ theme: jekyll-theme-cayman
 include:
 - _config.yml
 exclude:
-- build.sh
-- preview.sh
 - sekalian.sh
 - sekalian++.sh
