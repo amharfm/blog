@@ -1,8 +1,7 @@
 ---
+title: Batik 1 p5js
+date: 2019-11-06 00:00:00 Z
 layout: post
-title: "Batik 1 p5js"
-tags:
- -
 ---
 
 <iframe width="100%" height="400" src="{{site.url}}/assets/em/sketch_3/index.html" frameborder="0">
