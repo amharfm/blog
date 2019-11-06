@@ -19,7 +19,7 @@ function load (){
 		// bg.setAttribute("height", 900);
 		bg.setAttribute("scrolling", "no");
 		// console.log(window.location);
-		bg.setAttribute('src', window.location.origin+"/assets/em/gh_header/index.html")
+		bg.setAttribute('src', (window.location.origin+"/assets/em/gh_header/index.html" || window.location.origin+"/blog/assets/em/gh_header/index.html"))
 		// bg.setAttribute('src', window.location.protocol+"//"+window.location.hostname+"/assets/em/gh_header/index.html")
 		// bg.setAttribute('src', "./../assets/em/gh_header/index.html")
 		// cont.appendChild(bg);

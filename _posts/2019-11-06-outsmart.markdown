@@ -8,4 +8,4 @@ tags:
 <iframe width="100%" height="400" src="{{site.url}}/assets/em/sketch_2/index.html" frameborder="0">
 </iframe>
 
-<img src="{{relativeurl}}/assets/em/sketch_2/1TQYpCx.jpg">
+<img src="{{site.baseurl}}/assets/em/sketch_2/1TQYpCx.jpg">
