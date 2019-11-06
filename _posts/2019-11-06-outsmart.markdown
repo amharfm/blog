@@ -1,11 +1,10 @@
 ---
+title: Outsmart
+date: 2019-11-06 00:00:00 Z
 layout: post
-title: "Outsmart"
-tags:
- -
 ---
 
-<iframe width="100%" height="400" src="{{site.url}}/assets/em/sketch_2/index.html" frameborder="0">
+<iframe width="100%" height="400" src="{{site.url}}/blog/assets/em/sketch_2/index.html" frameborder="0">
 </iframe>
 
-<img src="{{site.baseurl}}/assets/em/sketch_2/1TQYpCx.jpg">
+<img src="{{site.baseurl}}/blog/assets/em/sketch_2/1TQYpCx.jpg">
