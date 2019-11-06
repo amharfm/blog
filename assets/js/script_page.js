@@ -5,9 +5,9 @@ function load (){
 	$('header').css('background-image', 'none');
 	// var cont = document.createElement('div');
 	// 	cont.setAttribute("style", "--aspect-ratio: 16/9;");
+	// 	cont.href = "https://google.com";
 	var bg = document.createElement('iframe');
-		bg.style.zIndex = 0;
-		// bg.href = "https://google.com"
+		bg.style.zIndex = 0;		
 		bg.style.position = "absolute";
 		bg.style.top = "0";
 		bg.style.overflow = "hidden";
@@ -19,14 +19,10 @@ function load (){
 		// bg.setAttribute("height", 900);
 		bg.setAttribute("scrolling", "no");
 		// console.log(window.location);
-		bg.setAttribute('src', window.location.protocol+"//"+window.location.hostname+"/gh_header/index.html")
-		// header.removeChild(header.children[0]);
-		// header.removeChild(header.children[0]);
-		header.appendChild(bg);
-	// var kembali = document.createElement('a');
-	// 	kembali.style.zIndex = 999;
-	// 	kembali.style.textDecoration = "none";
-	// 	kembali.innerText = "<ahahha";
-	// 	kembali.href = window.location.origin+"/blog";
-	// 	header.appendChild(kembali);
+		bg.setAttribute('src', window.location.origin+"/assets/em/gh_header/index.html")
+		// bg.setAttribute('src', window.location.protocol+"//"+window.location.hostname+"/assets/em/gh_header/index.html")
+		// bg.setAttribute('src', "./../assets/em/gh_header/index.html")
+		// cont.appendChild(bg);
+	// header.appendChild(cont);
+	header.appendChild(bg);
 }

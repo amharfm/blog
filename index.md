@@ -6,8 +6,6 @@ layout: default
 
 [Loki](./fi)
 
-[Loki3](./fi)
-
 # Posts
 
 <ul class="post-list">
