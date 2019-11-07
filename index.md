@@ -4,7 +4,9 @@ layout: default
 
 # Pages
 
-[Loki](./fi)
+[Loki](./o/fi)
+
+[Lab PAI](./o/labpai/karena.svg)
 
 # Posts
 

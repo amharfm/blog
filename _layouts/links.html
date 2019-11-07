@@ -22,15 +22,14 @@ comments: true
 		        mulai(j);
 		    }
 		};
-		xmlhttp.open("GET", "./daftarnya.json", true);
+		xmlhttp.open("GET", "{{site.baseurl}}/assets/json/daftarnya.json", true);
 		xmlhttp.send();
 
 		function mulai(list){
 			var in_ = document.getElementById("in");
 
 			function hapus(){
-				document.body.removeChild(document.getElementById('list'));
-				document.body.appendChild(document.createElement('ol')).id="list";
+				document.getElementById('list').innerHTML = "";
 			}		
 
 			function masukin(o){
@@ -40,7 +39,13 @@ comments: true
 					var i=0;
 					list.forEach(function(l){
 						document.getElementById("list").appendChild(document.createElement("li")).id = "list_"+i;
-						document.getElementById("list_"+i).innerHTML = "<a href='https://"+list[i]+"'>"+list[i]+" </a>";
+						if (l.indexOf('http')<0){
+							document.getElementById("list_"+i).innerHTML = "<a href='http://"+list[i]+"'>"+list[i]+" </a>";
+							
+						} else {
+							document.getElementById("list_"+i).innerHTML = "<a href='"+list[i]+"'>"+list[i]+" </a>";
+						}
+						
 						i++;
 					});				
 				} else {
@@ -73,16 +78,3 @@ comments: true
   </div>
 
 </article>
-
-<div id="disqus_thread"></div>
-	<script>
-	    (function() { 
-	        var d = document, s = d.createElement('script');
-	        
-	        s.src = 'https://amharfm-github-com-blog.disqus.com/embed.js';
-	        
-	        s.setAttribute('data-timestamp', +new Date());
-	        (d.head || d.body).appendChild(s);
-	    })();
-	</script>
-	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>

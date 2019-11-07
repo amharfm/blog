@@ -52,21 +52,28 @@ function draw() {
     paths[i].update();
     paths[i].display();
   }
-  
-  //if (!title){
-    //title=true;
+	
     textFont(font);
-    textSize(40);
+    textSize(32);
       textAlign(LEFT, LEFT);
       fill("#81E1B9");
       strokeWeight(1);
-    text('Ruang Angkasa #3', 35, 120);
-    textSize(28);
+      text('Ruang Angkasa #3', 35, 70);
+    textSize(24);
       textAlign(LEFT, LEFT);
       fill("#fff");
       noStroke();
-    text('Sofa Kontemplasi', 35, 150);
-  //}
+      text('Sofa Kontemplasi', 35, 100);
+	
+	mouseoverr();
+}
+
+function mouseoverr(){
+	if (mouseY>=50 && mouseY <= 100 && mouseX >= 35 && mouseX <=306){
+		cursor('pointer')
+	} else {
+		cursor('')
+	}
 }
 
 // Start it up
@@ -76,6 +83,10 @@ function mousePressed() {
   previous.x = mouseX;
   previous.y = mouseY;
   paths.push(new Path());
+	
+	if (mouseY>=50 && mouseY <= 100 && mouseX >= 35 && mouseX <=306){
+		window.open(window.location.origin+"/blog/", '_parent')
+	}
 }
 
 // Stop

@@ -4,7 +4,21 @@ date: 2019-11-06 00:00:00 Z
 layout: post
 ---
 
-<iframe width="100%" height="400" src="{{site.url}}/blog/assets/em/sketch_2/index.html" frameborder="0">
+<iframe width="100%" height="400" src="{{site.url}}/blog/assets/em/sketch_2/index.html" frameborder="0" id="iframee" scrolling="no">
 </iframe>
 
-<img src="{{site.baseurl}}/assets/em/sketch_2/1TQYpCx.jpg">
+record.json contains ~3462 frames omg
+
+<style>	
+	#iframeeeee {
+		-ms-zoom: 0.5;
+		-moz-transform: scale(0.5);
+		-moz-transform-origin: 0 0;
+		-o-transform: scale(0.5);
+		-o-transform-origin: 0 0;
+		-webkit-transform: scale(0.90);
+		-webkit-transform-origin: 0 0;
+	}
+</style>
+
+![sketch]({{site.baseurl}}/assets/em/sketch_2/1TQYpCx.jpg)

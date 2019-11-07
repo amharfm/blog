@@ -7,7 +7,7 @@ let id_arr = 0;
 let scenes;
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(600, 400);
   frameRate(fr);
   
   var xmlhttp = new XMLHttpRequest();  
