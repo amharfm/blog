@@ -1,8 +1,9 @@
 ---
-layout: novel
+layout: post
 title: "A Way Out"
 tags:
  - jurnal
+comments: false
 ---
 
 Sudah lebih dari satu tahun hidup saya sedemikian berhenti. Berhenti -nyaris- dari apapun. Nampaknya belum terlihat ada jalan keluar dari semua ini.

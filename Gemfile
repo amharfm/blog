@@ -1,5 +1,8 @@
 source "https://rubygems.org"
 
-gem "github-pages", group: :jekyll_plugins
+gem "github-pages"
 gem 'thor'
 gem 'stringex'
+group :jekyll_plugins do
+    gem "jekyll-twitter-plugin"
+end

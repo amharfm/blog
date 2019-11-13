@@ -26,3 +26,8 @@ include:
 exclude:
 - build.sh
 - preview.sh
+- .sass-cache
+- .tweet-cache
+- .jekyll-metadata
+plugins:
+- jekyll-twitter-plugin
