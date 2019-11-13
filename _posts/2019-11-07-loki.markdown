@@ -1,5 +1,6 @@
 ---
-layout: post
-title: "Loki"
+title: Loki
+date: 2019-11-07 00:00:00 Z
 layout: fi
 ---
+
