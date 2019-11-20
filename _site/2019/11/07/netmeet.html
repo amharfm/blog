@@ -2,7 +2,7 @@
 <html lang="en-US">
   <head>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" type="image/png" href="/blog/assets/img/favico_aksel.png"/>
+    <link rel="shortcut icon" type="image/png" href="/assets/img/favico_aksel.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -28,7 +28,7 @@
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p><a href="/blog/2019/11/06/hai-alumni-upi.html#materinyah_">«kembali</a></p>
+    <p><a href="/2019/11/06/hai-alumni-upi.html#materinyah_">«kembali</a></p>
     <iframe id="kesini" src="" height="520" width="100%" frameborder="0" marginheight="0" marginwidth="0" style="wordwrap:normal; word-wrap: break-word;" scrolling="auto"></iframe>
 
   </div>
@@ -51,11 +51,11 @@
         document.getElementsByClassName('project-name')[0].innerText = "Mentorship Prestasi & Karya";
         document.getElementsByClassName('project-tagline')[0].innerText = "Biar alumni dan mahasiswa makin ketemu!";
         var logonya = document.createElement('img');
-            logonya.src = "/blog/assets/img/aksel_v2_1.png";
+            logonya.src = "/assets/img/aksel_v2_1.png";
             logonya.height = 50;
         document.getElementsByClassName('page-header')[0].insertBefore(logonya,document.getElementsByClassName('project-name')[0]);
         var link_utama = document.createElement('a');
-            link_utama.href= "/blog/materi/2018/08/24/berkarya-dan-berprestasi-alum.html";
+            link_utama.href= "/materi/2018/08/24/berkarya-dan-berprestasi-alum.html";
             link_utama.style = "text-decoration:none";
             link_utama.appendChild(document.getElementsByClassName('page-header')[0]);
         document.body.insertBefore(link_utama, document.getElementById('content'))
@@ -76,7 +76,7 @@
                 document.getElementsByClassName('post-meta')[0].innerText = kamus.materi[window.location.hash.split('#')[1]].f.split("NetMeet_")[1].slice(0,self.length-5);}
             }
           }
-          xmlhttp.open("GET", "/blog/assets/json/mentorship.json", true);
+          xmlhttp.open("GET", "/assets/json/mentorship.json", true);
           xmlhttp.send();
       }
       $(document).ready(function(){ mulai(); });
