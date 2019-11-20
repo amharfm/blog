@@ -1,6 +1,6 @@
 ---
+title: cobalagi
+date: 2019-11-20 00:00:00 Z
 layout: post
-title: "cobalagi"
-tags:
- -
 ---
+
