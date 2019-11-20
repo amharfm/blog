@@ -1,4 +1,6 @@
+_site
 .sass-cache
+.tweet-cache
 .jekyll-metadata
 *~
 sekalian.sh
