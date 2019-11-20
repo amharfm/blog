@@ -4,5 +4,5 @@ date: 2019-11-20 00:00:00 Z
 layout: post
 ---
 
-<iframe id="kanvas" width="313" height="313" src="{{site.url}}/blog/assets/em/sketch_5/index.html" frameborder="0">
+<iframe id="kanvas" src="{{site.url}}/blog/assets/em/sketch_5/index.html" frameborder="0">
 </iframe>

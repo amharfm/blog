@@ -11,7 +11,7 @@ function preload() {
 
 let point_;
 function setup() {
-  cnv = createCanvas(313,313);
+  cnv = createCanvas(400,500);
   bikinBg(width/2,height/2);
   
   stroke("#EEC6B9");
