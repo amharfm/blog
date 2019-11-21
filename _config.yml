@@ -26,5 +26,3 @@ include:
 exclude:
 - build.sh
 - preview.sh
-plugins:
-- jekyll-twitter-plugin
