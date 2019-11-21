@@ -1,6 +1,10 @@
 let cnv; 
 let linez;
 
+let nyasu = {
+	"weight" : 60
+}
+
 let img,hand,wail,point;
 function preload() {
   img = loadImage('head.png');
@@ -11,14 +15,15 @@ function preload() {
 
 let point_;
 function setup() {
-  cnv = createCanvas(400,500);
+  cnv = createCanvas(400,400);
   bikinBg(width/2,height/2);
   
   stroke("#EEC6B9");
-  strokeWeight(70);
-  image(hand, width/30, height*3/7);  
+  strokeWeight(nyasu.weight);
   linez = line(width/2,height/2,width/2,height+30);
-  image(img, calcW(mouseX), calcH(mouseY));
+	
+  image(hand, width/10, height*3/9);
+  image(img, width/2-104, height/2 - 130);
   image(wail, 0, height-80);
   push();
     scale(0.5,0.5);
@@ -27,12 +32,55 @@ function setup() {
   bikinLaut();
 }
 
+let varian;
+function mouseDragged(){
+	//if(mouseX<width && mouseY<height && mouseX>0 && mouseY>0){
+  //console.clear();
+  bikinBg(width/2,height/2);
+  
+  stroke("#EEC6B9");
+  strokeWeight(70);
+  noFill();
+  if (mouseX<width/2) varian = mouseY; else varian = -mouseY;
+  linez = bezier(mouseX,mouseY,mouseX+(varian/2),mouseY, width/2,height,width/2,height+30);
+  image(hand, calcW(mouseX, "hand"), calcH(mouseY, "hand"));
+  image(img, calcW(mouseX), calcH(mouseY));
+  
+  bikinAwan();
+  
+  if (mouseX<width/2){
+    push();
+      scale(1,1);
+      image(wail, calcW(mouseX, "wail"), calcH(mouseY, "wail"));
+    pop();
+  } else {
+    push();
+      translate(wail.width,0);
+      scale(-1,1);
+      image(wail, -mouseX,calcH(mouseY, "wail"));
+    pop();
+  }  
+  
+  bikinLaut();
+  
+  bikinHari();
+	//}
+}
+
+function bikinHari(){
+  stroke("#eaeaea");
+  strokeWeight(1);
+  fill('#eaeaea');
+  textSize(32);
+  text(harike, width-30,30);
+}
+
 function calcW(x,what){
   var varianX = 0;
   switch (what){
     default:
       var res = width/2;
-      if (x){ res = mouseX; }
+	  res = mouseX;
       res = res - 105;
       return res;
       break;
@@ -55,17 +103,14 @@ function calcH(y,what){
   switch (what){
     default:
       var res = height/2;
-      if (y){
-        res = mouseY;
-        res = res-15;
-      }
+      res = mouseY;
       res = res-110;
       return res;
       break;
     case "hand":
       var res = height*3/7;
         res = mouseY;
-        varianY = -mouseY*0.17;
+        varianY = -mouseY*0.07;
         res = res-50+(varianY);
       return res;
       break;
@@ -100,7 +145,6 @@ function bikinBg(a,b){
     harike++;
     if (bulanId>=langit.length) bulanId = 0;
   }
-
 };
 
 function bikinLaut(){
@@ -114,9 +158,7 @@ function bikinLaut(){
 let harike = 1;
 function draw() {
   stroke("#EEC6B9");
-  strokeWeight(70);
-  
-  //stroke("#1A73DF");
+  strokeWeight(nyasu.weight);
 }
 
 let counter = -130;
@@ -138,45 +180,4 @@ function bikinAwan(){
     }
     counter++;
   pop();
-}
-
-let varian;
-function mouseDragged(){
-  //console.clear();
-  bikinBg(width/2,height/2);
-  
-  stroke("#EEC6B9");
-  strokeWeight(70);
-  noFill();
-  if (mouseX<width/2) varian = mouseY; else varian = -mouseY;
-  image(hand, calcW(mouseX, "hand"), calcH(mouseY, "hand"));
-  linez = bezier(mouseX,mouseY,mouseX+(varian/2),mouseY, width/2,height,width/2,height+30)  
-  image(img, calcW(mouseX), calcH(mouseY));
-  
-  bikinAwan();
-  
-  if (mouseX<width/2){
-    push();
-      scale(1,1);
-      image(wail, calcW(mouseX, "wail"), calcH(mouseY, "wail"));
-    pop();
-  } else {
-    push();
-      translate(wail.width,0);
-      scale(-1,1);
-      image(wail, -mouseX,calcH(mouseY, "wail"));
-    pop();
-  }  
-  
-  bikinLaut();
-  
-  bikinHari();
-}
-
-function bikinHari(){
-  stroke("#eaeaea");
-  strokeWeight(1);
-  fill('#eaeaea');
-  textSize(32);
-  text(harike, width-30,30);
 }

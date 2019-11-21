@@ -2,6 +2,8 @@
 title: Batik 1 p5js
 date: 2019-11-06 00:00:00 Z
 layout: post
+tags:
+ - p5js
 ---
 
 <iframe width="400" height="400" src="{{site.url}}/blog/assets/em/sketch_3/index.html" frameborder="0">

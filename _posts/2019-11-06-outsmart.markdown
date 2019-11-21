@@ -2,6 +2,8 @@
 title: Outsmart
 date: 2019-11-06 00:00:00 Z
 layout: post
+tags:
+ - p5js
 ---
 
 <iframe id="kanvas" src="{{site.url}}/blog/assets/em/sketch_2/index.html" frameborder="0" scrolling="no">

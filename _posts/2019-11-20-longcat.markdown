@@ -1,7 +1,10 @@
 ---
 title: longcat
 date: 2019-11-20 00:00:00 Z
+thumbnail: 1.jpg
 layout: post
+tags:
+ - p5js
 ---
 
 <iframe id="kanvas" src="{{site.url}}/blog/assets/em/sketch_5/index.html" frameborder="0">

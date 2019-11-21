@@ -13,7 +13,7 @@ function load (){
 			//bg.style.border = "none";
 			bg.style.left = "0";
 			//bg.setAttribute("width", window.innerWidth-15);
-			bg.setAttribute("width", window.innerWidth-90);
+			//bg.setAttribute("width", window.innerWidth-90);
 		//console.log(bg, bg.width, window.innerWidth-15)
 			bg.setAttribute("height", parseInt($('header').css("height")));
 			//bg.setAttribute("scrolling", "no");
@@ -72,7 +72,7 @@ function load (){
 			//if ($('iframe')[0]) $('iframe')[0].style.width = "100%";
 			//if ($('header')[0]) $('header')[0].style.width = "100%";
 		} else {
-			$('#content').css('width', '650');
+			//$('#content').css('width', '650');
 		}
 	}
 
