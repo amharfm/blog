@@ -7,3 +7,6 @@
 ## Usage
 
 Ini pake Cayman
+
+bundle exec jekyll serve
+

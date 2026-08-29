@@ -1,5 +1,4 @@
 source "https://rubygems.org"
 
-gem "github-pages"
-gem 'thor'
+gem "github-pages", group: :jekyll_plugins
 gem 'stringex'
