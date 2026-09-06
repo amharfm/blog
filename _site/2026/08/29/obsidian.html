@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="/assets/css/style.css?v=e3f599a966381f97c7999e8c37add4aff8387dbe">
+    <link rel="stylesheet" href="/assets/css/style.css?v=2520b60235675dd8dde4ce297f2c4c8455b173e9">
 	  
 	<script type="text/javascript" src="/assets/js/script_page.js">    </script>
 	<script src="/js/jquery-3.4.1.min.js"></script>
@@ -40,14 +40,88 @@
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    
-<p>O besar o kecil</p>
+    <pre><code class="language-mermaid">graph TD
+    A[Obsidian] --&gt; B[Markdown]
+    B --&gt; C[Git]
+    C --&gt; D[GitHub]
+    D --&gt; E[Jekyll]
+    E --&gt; F[Website]
+</code></pre>
+
+\[x(t) = x_0 + v_0t + \frac{1}{2}at^2\]
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">pygame</span>
+
+<span class="n">screen</span> <span class="o">=</span> <span class="n">pygame</span><span class="p">.</span><span class="n">display</span><span class="p">.</span><span class="n">set_mode</span><span class="p">((</span><span class="mi">800</span><span class="p">,</span> <span class="mi">600</span><span class="p">))</span>
+
+<span class="c1"># while True:
+</span>    <span class="c1"># ...
+</span></code></pre></div></div>
+
+<pre><code class="language-mermaid">xychart-beta
+    title "Student Scores"
+    x-axis ["A", "B", "C", "D"]
+    y-axis "Score" 0 --&gt; 100
+    bar [75, 82, 91, 68]
+</code></pre>
+
+<div class="exercise">
+  <h3>🏋️ Exercise</h3>
+
+  <p>
+    A car accelerates from 0 m/s to 20 m/s in 5 seconds.
+    What is its acceleration?
+  </p>
+
+  <details>
+    <summary style="color:#ff0000;">Show answer</summary>
+
+    <p>
+      <strong>a = Δv / Δt</strong>
+    </p>
+
+    <p>
+      a = 20 / 5 = 4 m/s²
+    </p>
+  </details>
+</div>
 
   </div>
 
 </article>
 
 
+
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+
+  mermaid.initialize({
+    startOnLoad: false
+  });
+
+  document.addEventListener('DOMContentLoaded', async () => {
+    document.querySelectorAll('pre code.language-mermaid').forEach((block) => {
+      const pre = block.parentElement;
+      pre.classList.add('mermaid');
+      pre.textContent = block.textContent;
+    });
+
+    await mermaid.run();
+  });
+</script>
+
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    }
+  };
+</script>
+
+<script async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 
       <footer class="site-footer">
         <!--

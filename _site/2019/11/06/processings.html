@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="/assets/css/style.css?v=e3f599a966381f97c7999e8c37add4aff8387dbe">
+    <link rel="stylesheet" href="/assets/css/style.css?v=2520b60235675dd8dde4ce297f2c4c8455b173e9">
 	  
 	<script type="text/javascript" src="/assets/js/script_page.js">    </script>
 	<script src="/js/jquery-3.4.1.min.js"></script>
@@ -43,11 +43,45 @@
     <iframe id="kanvas" width="444" height="444" src="http://localhost:4000/blog/assets/em/sketch_1/index.html" frameborder="0">
 </iframe>
 
+<iframe id="kanvas" width="444" height="444" src="http://localhost:4000/blog/assets/em/bgdots/index.html" frameborder="0">
+</iframe>
+
   </div>
 
 </article>
 
 
+
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+
+  mermaid.initialize({
+    startOnLoad: false
+  });
+
+  document.addEventListener('DOMContentLoaded', async () => {
+    document.querySelectorAll('pre code.language-mermaid').forEach((block) => {
+      const pre = block.parentElement;
+      pre.classList.add('mermaid');
+      pre.textContent = block.textContent;
+    });
+
+    await mermaid.run();
+  });
+</script>
+
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    }
+  };
+</script>
+
+<script async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 
       <footer class="site-footer">
         <!--
